@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* The sidepanel menu */
+.sidepanel {
+  height: 250px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+header{
+  color:white;
+      /* display: flex; */
+      justify-content:center;
+      /* align-items:center ; */
+   background-color: transparent;
+   /* position: absolute; */
+   position: absolute;;
+   right:0;
+   left: 0;
+   top: 0;
+   bottom: 0;
+   font-size: x-large;
+   padding: 0px 1px;
+   width: 100;
+     
+  }
+  #videos{
+   background-image: url("Universe\ Background\ Time\ Machine\ Inspired\ Album\ Cover\ \(1\).jpg");
+  
+  } 
+  .v1{
+padding-left: 150px;
+
+  }
+  .v2{
+padding-left: 150px;
+margin-top: 50px;
+  }
+  .v3{
+padding-left: 150px;
+margin-top: 50px;
+  }
+  
